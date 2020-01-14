@@ -1,10 +1,11 @@
-﻿using System;
-namespace GradeBook
+﻿namespace GradeBook.Enums
 {
-    public class GradedBookType
+    public enum GradeBookType
     {
-        public GradedBookType()
-        {
-        }
+        Standard,
+        Ranked,
+        ESNU,
+        OneToFour,
+        SixPoint
     }
 }
